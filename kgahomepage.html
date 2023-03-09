@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"경력 있는 신입 양성"</title>
+    <link rel="stylesheet" href="./kgahomepage.css">
+</head>
+<body>
+    <div class="topbanner">
+        <div>"경력 있는 신입 양성"</div>
+        <div class="searchbox">            
+            <img class="magnifier" src="https://w7.pngwing.com/pngs/410/185/png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol-thumbnail.png" alt="돋보기">
+            <span class="search">검색</span>
+        </div>
+        <div class="sharebox">
+            <img class="shareimg" src="data:image/png;base64,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" alt="">
+            <span class="share">공유</span>
+        </div>  
+    </div>
+    <div>
+        <img class="topbannerimg" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5aae56ca-6767-43ad-8220-0fe60f06adbe%2F%25EC%25BB%25A4%25EB%25B2%2584_(1).jpg&blockId=166cb56a-2348-4276-80a0-c7cec957b95a&width=3600" alt="">
+    </div>
+    <div class="mainbox">
+        <div class="innermainbox">
+            
+                
+            
+            <h1 class="firsttitle">"경력 있는 신입 양성"</h1>
+            <img class="reviewimg" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F43a1d4c5-4d63-4f39-bda0-33c4c935cb70%2F%25EA%25B2%258C%25EC%259E%2584%25ED%2594%2584%25EB%25A1%259C%25EA%25B7%25B8%25EB%259E%2598%25EB%25B0%258D_%25EC%259A%25B0%25ED%2594%25BC_%25EC%25B7%25A8%25EC%2597%2585%25EC%259E%2590%25EC%259D%25B8%25ED%2584%25B0%25EB%25B7%25B001.jpg&blockId=d9147be6-1734-4507-8fb6-3ed7252063f4" alt="">
+            <img class="manypeopleimg" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F65a45751-1851-4351-b7ef-c52313f95dcb%2Fstem-list-EVgsAbL51Rk-unsplash_(1).jpg&blockId=4bcf9fdc-d2ce-4241-b9c9-e0ad55f22756" alt="">
+            <div class="emptyspace"></div>
+            <h3>경일게임아카데미 모바일 게임 개발자 양성과정 C</h3>
+            <div class="borderleftbox">
+                <div class="text">
+                    이 과정은 유니티 엔진을 기반으로 게임 제작에 <br>
+                    필요한 요소들과 개인, 팀, 기업협업 프로젝트 등을 <br>
+                    진행하며 다양한 실무 경험을 쌓아 <br>
+                    <span class="yellow">비전공자라도 기업에서 원하는 인재가 되게 하는 것</span>을 <br>
+                    목표로 교육합니다.
+                </div>    
+            </div>
+            <div class="emptyspace emptyspace1">
+                <img class="playbuttonimg" src="data:image/png;base64,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" alt="">
+                <span class="playbuttontext">
+                    KGA에게 '기업에서 원하는 인재'란
+                </span>
+            </div>
+            <div class="emptyspace"></div>
+            <div class="emptyspace"></div>
+            <h3>게임 개발자의 꿈, 6개월이면 가능합니다.</h3>
+            
+            <div class="borderleftbox">
+                <div class="text">
+                    <span class="bold">햇수로 7년</span>, 게임 프로그래밍 과정을 교육하며 <br>
+                    수 많은 시행착오 끝에 게임 개발자가 되기 위해 <br>
+                    <span class="yellow">최적의 커리큘럼</span>과 <span class="yellow">최적의 교육 시간</span>을 찾았습니다. <br>
+                    그 결과, 열정만 있다면 누구나 6개월 뒤에 <br>
+                    게임 프로그래머가 될 수 있습니다.
+                </div>    
+            </div>
+            <div class="emptyspace emptyspace1">
+                <img class="playbuttonimg" src="data:image/png;base64,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" alt="">
+                <span class="playbuttontext">
+                    7년 동안 게임 프로그래밍 교육을 하며
+                </span>
+            </div>
+            <div class="emptyspace"></div>
+            <div class="emptyspace"></div>
+            <h3>교육 과정 안내</h3>
+            <div class="graybox">
+                <div class="imgingray">
+                    <img class="imgingray1" src="data:image/png;base64,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" alt="">
+                </div>
+                <div class="textingray">
+                    <span class="bold">교육대상</span> <br>
+                    국민내일배움카드 발급 가능자 <br>
+                    <span class="textisgray">(발급 여부가 확인이 어려우신 분들은 <br>
+                    학원 상담을 통해 확인하실 수 있습니다.)
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="graybox">
+                <div class="imgingray">
+                    <img class="imgingray1" src="data:image/jpeg;base64,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" alt="">
+                </div>
+                <div class="textingray">
+                    <span class="bold">교육 기간</span><br>   
+                    2023년 3월 10일 ~ 2023년 8월 17일 <br><br>
+                    시간(매주 월~금): 오전9시 ~ 오후 6시
+                </div>    
+            </div>
+            <br>
+            <div class="graybox1">
+                <div class="imgingray">
+                    <img class="imgingray1" src="https://png.pngtree.com/png-vector/20190307/ourlarge/pngtree-vector-bulb-icon-png-image_781539.jpg" alt="">
+                </div>
+                <div class="textingray">
+                    <span class="bold">수강료 전액 국비지원</span><br><br>
+                    <span class="redline">5,903,970</span>원 → <span class="red">0</span>원
+                
+                </div>   
+            </div>
+            <br>
+            
+            <div class="graybox1">
+                <div class="imgingray">
+                    <img class="imgingray1" src="https://png.pngtree.com/png-vector/20190307/ourlarge/pngtree-vector-bulb-icon-png-image_781539.jpg" alt="">                    
+                </div>
+                <div class="textingray">
+                    <span class="bold">훈련 장려금 혜택</span> <br>
+                    최대 매월 20만원 기본 지급 + 국민취업지원제도 매월 50만원
+                </div>
+            </div>
+            
+            <img class="apply" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc5417a8c-a16a-45b7-ae4f-887129225799%2F%25EC%25A0%259C%25EB%25AA%25A9%25EC%259D%2584_%25EC%259E%2585%25EB%25A0%25A5%25ED%2595%2598%25EC%2584%25B8%25EC%259A%2594.png&blockId=9843d92f-ced4-4433-8bea-31e36f1c18cc" alt="">
+            <br>
+            <img class="topbannerimg2" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe2342318-b4a5-40ca-8de6-328940bbf796%2Fimage.jfif&blockId=a301caec-0b13-4c42-a734-ccf92bc4afb0" alt="">
+            <div class="phil">
+                <div>
+                    <img class="bookicon" src="https://cdn-icons-png.flaticon.com/512/4416/4416261.png" alt="">
+                </div>
+                <div>
+                    <h1>우리의 교육 철학</h1>
+                </div>
+            </div>
+            <br>
+            <h1 class="fast">빠르게 보다 '제대로' 교육합니다.</h1>
+            <div class="borderleftbox1">
+                <div class="text">
+                    <span class="bold">"누구나 3개월 안에 개발자가 될 수 있다</span>라는 말, <br>
+                        한 번쯤 들어보셨을 거라고 생각해요. <br>
+                        KGA는 3개월 만에 취업이 된다고 한들, 취업자가 <br>
+                        원하던 회사일 가능성이 낮다는 것을 압니다. <br>
+                        그래서 시간은 좀 더 오래 걸릴지라도, <br>
+                        <span class="yellow">
+                            역량을 확실하게 개발해 원하는 회사 취업이 <br>
+                            가능할 수 있도록 굵고 긹게 교육
+                        </span>합니다. 
+                </div>
+            </div>
+
+            
+           
+            
+            <img class="pointingpic" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd315784b-4805-4d5f-9a5d-c31f8895407a%2Fdeveloping-programmer-team-development-website-design-and-coding-technologies.jpg&blockId=73832a0c-a902-4f36-b36b-cc030f22f7a8" alt="">
+            
+            <h2 class="offline">기하급수적 성장, 오프라인 교욱</h2>
+            <div class="borderleftbox2">
+                <div class="text">
+                    많은 분들이 편리한 온라인 교육을 찾지만, <br>
+                    KGA는 오프라인 교육만을 고집합니다. <br>
+                    <span class="bold">
+                    "기쁨을 나누면 배가 되듯, 배움도 나누면 배가<br>
+                    된다는것"
+                    </span>
+                    을 오랜 기간 교육업에 <br>
+                    종사하며 깨달았기 때문이죠. <br>
+                    온라인과 오프라인, 두 가지 중에 정답은 없지만 <br>
+                    확신하는 것은 <span class="yellow">'온라인은 편리하고 오프라인은 확실합니다'</span>
+                </div>
+
+            </div>
+            
+            
+                
+            
+            
+            <img class="pointingpic1" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F91433b7a-c50b-481a-ba17-7fc9666ec26a%2Fmimi-thian-ZKBzlifgkgw-unsplash.jpg&blockId=ad2483d0-1deb-4327-bcdd-5c9473f36c59" alt="">
+            <h2 class="offline">믿음과 신념을 가지고 교육합니다.</h2>
+            
+                
+            
+            <div class="borderleftbox3">
+                <div class="text">
+                    KGA는 <span class="yellow">"누구나 배우면 된다"</span>라는 것을 믿습니다. <br>
+                    우리가 어릴 적 배웠던 한글, 지금은 익숙하지만, <br>
+                    어릴 적 시절에는 한글이 가장 어려웠을 거예요. <br>
+                    배우는 과정이 어려워 보이고 힘들어 보일 뿐이지, <br>
+                    누구나 다 배우면 습득하고 해낼 수 있습니다.
+                </div>  
+            </div>
+            
+            <img class="pointingpic1" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ffaeda242-dbd3-4323-ad52-922307e02a00%2Fscott-graham-5fNmWej4tAA-unsplash.jpg&blockId=2cf99bf9-fdf4-4f45-92fd-42d753c4caa0" alt="">
+            <br>
+            <br>
+            <img class="longpic" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F00810d0d-986e-4bca-a5f1-8e35c4c6130b%2Fdeveloping-programmer-team-development-website-design-and-coding-technologies-working-in-software-company-office.jpg&blockId=b20020a7-6dee-4034-97b5-29a291d95f33" alt="">
+            <div class="phil">
+                <h2>KGA가 선택 받는 이유 <br>
+                    기초부터 제대로 가르치는 커리큘럼
+                </h2> 
+            </div>    
+            <img class="onestep" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb858dd15-9f52-441a-a722-bf1cdd2d8488%2F%25EA%25B2%258C%25EC%259E%2584%25ED%2594%2584%25EB%25A1%259C%25EA%25B7%25B8%25EB%259E%2598%25EB%25B0%258D_%25EC%259A%25B0%25ED%2594%25BC_%25EC%25BB%25A4%25EB%25A6%25AC%25ED%2581%2598%25EB%259F%25BC03.jpg&blockId=522bbc57-b28d-4b51-8907-f0902e709108" alt="">
+            <div class="beforeyoutube">
+                <span class="grayline">
+                    커리큘럼 더 자세히 보기
+                </span>
+            </div>
+            <div class="youtube">
+                <div class="realyoutube">                    
+                    <iframe width="330" height="200" src="https://www.youtube.com/embed/-mzobnv_KTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="youtubetext">
+                        팀 프로젝트 과정에서 'A Dane of Fire And Ice' 게임의 
+                        모작 포트폴리오입니다. 팀원과의 협력을 통해 
+                        실무에 있어 필수적인 협업 능력을 향상 시킵니다.
+                    </div>           
+                </div>
+                <div class="youtubespace">
+                    
+                </div>
+                <div class="realyoutube">                    
+                    <iframe width="330" height="200" src="https://www.youtube.com/embed/_dqtBy7dwM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="youtubetext">
+                        팀 프로젝트 과정 중, ‘창작’ 프로젝트의 포트폴리오
+                        입니다. 이 과정에서는 게임 기획부터 개발까지
+                        게임 개발의 전반적인 부분을 경험합니다.
+                    </div>           
+                </div>
+                
+
+            </div>
+            <div class="youtube">
+                <div class="realyoutube">                    
+                    <iframe width="330" height="200" src="https://www.youtube.com/embed/VBz0FcWs9E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="youtubetext">
+                        Unity 엔진을 활용하여 3D RPG 게임을 직접 기획부터
+                        개발하고, 제작한 게임을 플레이 스토어에 출시하여
+                        소비자의 반응을 체크합니다.
+                    </div>           
+                </div>
+                <div class="youtubespace">
+                    
+                </div>
+                <div class="realyoutube">                    
+                    <iframe width="330" height="200" src="https://www.youtube.com/embed/yYBL3DZcPmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="youtubetext">
+                        Unity 엔진을 활용하여 3D RPG 게임을 직접 기획부터
+                        개발하고, 제작한 게임을 플레이 스토어에 출시하여
+                        소비자의 반응을 체크합니다.
+                    </div>           
+                </div>
+                
+
+            </div>
+            <div class="mediumbox">
+                <h3>3개월 뒤, 당신은 경력있는 신입이 됩니다.</h3>
+            </div>
+            <div class="threepic">
+                <div class="picagain">
+                    <img class="picagain1" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa3309a19-cd35-41ea-9541-455f48cbb7a3%2Fimage.jfif&blockId=47cbdf45-90f9-43b8-8b06-3fd29f5e697e" alt="">
+                </div>
+                <div class="youtubespace"></div>
+                <div class="pictext">
+                    <span class="boldline">이미 게임을 만들어 본 신입 개발자</span>
+                    <br>
+                    현업에서의 개발은 <span class="yellow">고객의 피드백을 반영해 서비스를 계속해서 개선하는것</span>
+                    이 핵심입니다. <br>
+                    신입 개발자인데 이미 게임을 만들어 보았다는 것은 상당히 큰 메리트가 되어주죠. 직접 만든 게임을 시장에
+                    출시하고 고객 의사까지 반영해 본 경력있는 개발자가 되세요.
+                </div>
+            </div>
+            <div class="threepic">
+                <div class="picagain">
+                    <img class="picagain1" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa3309a19-cd35-41ea-9541-455f48cbb7a3%2Fimage.jfif&blockId=47cbdf45-90f9-43b8-8b06-3fd29f5e697e" alt="">
+                </div>
+                <div class="youtubespace"></div>
+                <div class="pictext">
+                    <span class="boldline">이미 게임을 만들어 본 신입 개발자</span>
+                    <br>
+                    현업에서의 개발은 <span class="yellow">고객의 피드백을 반영해 서비스를 계속해서 개선하는것</span>
+                    이 핵심입니다. <br>
+                    신입 개발자인데 이미 게임을 만들어 보았다는 것은 상당히 큰 메리트가 되어주죠. 직접 만든 게임을 시장에
+                    출시하고 고객 의사까지 반영해 본 경력있는 개발자가 되세요.
+                </div>
+            </div>
+            <div class="threepic">
+                <div class="picagain">
+                    <img class="picagain1" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa3309a19-cd35-41ea-9541-455f48cbb7a3%2Fimage.jfif&blockId=47cbdf45-90f9-43b8-8b06-3fd29f5e697e" alt="">
+                </div>
+                <div class="youtubespace"></div>
+                <div class="pictext">
+                    <span class="boldline">이미 게임을 만들어 본 신입 개발자</span>
+                    <br>
+                    현업에서의 개발은 <span class="yellow">고객의 피드백을 반영해 서비스를 계속해서 개선하는것</span>
+                    이 핵심입니다. <br>
+                    신입 개발자인데 이미 게임을 만들어 보았다는 것은 상당히 큰 메리트가 되어주죠. 직접 만든 게임을 시장에
+                    출시하고 고객 의사까지 반영해 본 경력있는 개발자가 되세요.
+                </div>
+            </div>
+            <div class="question">
+                <h3 class="h3q">자주 묻는 질문</h3>
+            </div>
+            <br>
+            <br>
+            <div class="questiontext">
+                <div class="playbuttonimgclass"> 
+                    <img class="playbuttonimg" src="data:image/png;base64,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" alt="">
+                </div>
+                <div class="questions">
+                    <span class="questioncolor">
+                        고등학교 졸업, 비전공자인데 취업할 수 있을까요?
+                    </span>
+                </div>
+            </div>
+            <div class="questiontext">
+                <div class="playbuttonimgclass"> 
+                    <img class="playbuttonimg" src="data:image/png;base64,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" alt="">
+                </div>
+                <div class="questions">
+                   <span class="questioncolor">
+
+                       커리큘럼에 있는 내용도 잘 모르겠어요. 괜찮을까요?
+                   </span>
+                </div>
+            </div>
+            <div class="questiontext">
+                <div class="playbuttonimgclass"> 
+                    <img class="playbuttonimg" src="data:image/png;base64,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" alt="">
+                </div>
+                <div class="questions">
+                    <span class="questioncolor">
+
+                        왜 수강료가 무료인가요?
+                    </span>
+                </div>
+            </div>
+            <div class="questiontext">
+                <div class="playbuttonimgclass"> 
+                    <img class="playbuttonimg" src="data:image/png;base64,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" alt="">
+                </div>
+                <div class="questions">
+                   <span class="questioncolor">
+
+                       문의 사항이 있어요! 어디로 문의하면 될까요?
+                   </span>
+                </div>
+            </div>
+            <div class="questiontext">
+                <div class="playbuttonimgclass"> 
+                    <img class="playbuttonimg" src="data:image/png;base64,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" alt="">
+                </div>
+                <div class="questions">
+                    <span class="questioncolor">
+
+                        수강 신청은 언제까지 하면 되나요?
+                    </span>
+                </div>
+            </div>
+         
+            <div class="emptyspace"></div>
+            <div class="emptyspace"></div>
+            <div class="emptyspace"></div>
+            <div class="mediumbox">
+                <h3>수강생들의 한 마디</h3>
+            </div>
+            <img class="reviewimg" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe1d9f462-df6d-4fac-90c4-18befeacf7ac%2F%25EA%25B2%258C%25EC%259E%2584%25ED%2594%2584%25EB%25A1%259C%25EA%25B7%25B8%25EB%259E%2598%25EB%25B0%258D_%25EC%259A%25B0%25ED%2594%25BC_%25EC%25B7%25A8%25EC%2597%2585%25EC%259E%2590%25EC%259D%25B8%25ED%2584%25B0%25EB%25B7%25B002.jpg&blockId=a1dec565-48a4-4403-ae22-a9783272d11c" alt="">
+            <div class="question">
+                <h3 class="h3q">문의하기</h3>
+            </div>
+            <div class="alignleft">
+                <span>경일게임아카데미</span>
+                <span class="grayline">입학지원센터</span>
+                <img class="phonecall" src="data:image/jpeg;base64,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" alt="">
+                <span>02-479-4050</span>
+            </div>
+            <div class="lastbox">
+                <div class="lasttext">
+                    <span class="bold">경일게임아카데미</span> <br>
+                    <span id="last">
+                        고용노동부 5년 우수훈련기관인 경일게임아카데미는 업계에서 인정받는 직무중심의 게임전문아카데미입니다.
+
+                    </span><br>
+                    <img class="kakaotalk" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fpf.kakao.com%2Ffavicon.ico&blockId=cec1904d-64ed-4c2c-93b7-c47649df4eaf&width=32" alt="">
+                    <span id="hehe">
+                        https://pf.kakao.com/_nsNxkM
+                    </span>                   
+                </div>
+                <img class="lastpic" src="https://oopy.lazyrockets.com/api/v2/notion/image?src=http%3A%2F%2Fk.kakaocdn.net%2Fdn%2F812On%2FbtqjSHnn3I4%2FJVoieCk4b6aDMyvwMSSQV1%2Fimg_m.jpg&blockId=cec1904d-64ed-4c2c-93b7-c47649df4eaf&width=512" alt="">
+            </div>
+            
+        </div>
+        <img class="kakao" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAACoCAYAAAB0S6W0AAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAABNmSURBVHgB7Z17jFTVHcd/d3aXR9VlbUytRXZnm/5hiQr8UUuDjzUYY/EBNCal8QH4h5pKAyQGKzQKTcBoTIoJNOofuopJadIE0JYYo3ERiGj/ANSqf3VnAWPaajusIrCPuf1972O9Ozsz9zHn3nPOnfNJxnkt4+693/m9z7kWGepiD1LXGaJiG9F8m6irvUA9/HIX2VTk58XAjxbrfEQZN8u7t/HYotJ4hU4XiI5V+PkMvrd6nfcNNbDI4PD1IM2HENsKNI8FCEHOJ4gxGyDiY3w2jrF4j4/z4wt7+bmhdQV6dpD6IMJ2i5ZmLMaoOKIds2kf7mf20gC1IC0jULjrc0TL2ELeYNu0jNQTZBgIAwYqLFjcs2BL1ALkWqAQ5VmiVZ6V7KMcwSduYNymlyjnYs2lQOG+2yx6XFHXLRxOvPrtCu2b3kt7KWfkRqCwlmMFWssucB21gCjrUOK/fwvlyKpqL1Bk39MKtJLjylXUusKcAqwqVwS26C5UbQUacON9ZKiL7kLVTqAszCIL80UjzHjoKlRtBIoYc7TAFtONMQ0J0U2oygvUJD+pUC5YtL2jx0molEZpgSLO5AP5ItXvdRuaA1n/apW7VEoK1LjzbFHZ7SsnUGM1peHUUFmk/aQQygjUWE01sBCbsjVVZQRQCYGidMRW820yVlMVYE1vVMHlF0gyI0O0lsV5lIw4VQIG4+i5QfneTKoFZXH+wbh0tWGhbpZZjpIiUCfetGiP6QbpAQamx21aLsPlZy5QE29qi5S4NNMYFJNHRpza4hgWnEPKkMwsKP6wDlecpl2pN+VRtqRZLerLxIKODdHKDjdTN+LUny6cS5xTyoDULSj+EA6w+8mQO9osWtXe46yLSo1UBWrEmX/SFmlqAvVizqNkyD0cky5IKyZNJQYNJESGFqAjxexeuAU1dc6WJZU6qVCBGnG2PKVp7O5FTkK1k0Da3PZlkXLO0CkuBg4TnebbiVOTXwc9l3/7Wjc/ntXJB8W7zzlFtLD5/kYShDALOjpEj7OJ30w5AgJ85wjRBx+74jt0xH0N4kxCV6crWNyunkt03UKieXPzJ1zMlE7rofUkACECxcicbdN20hyI77U3XFFCjEOnKBMgVtxuu5no+oX5ECzrYf2M3uY10bRAvbhT2y4RRPnKX1xhHjxCSgDLevedrli7LyddKbNHXdBs0tSUQDE2N6LpsDGs5Lbt6oiyHrCqEOvtN5OONJ00NSVQ3QaOYS13vED0xxeSx5GyQOK1cZ0rVp1oNh5NLFB27au81ZfKo7Mwq4FQ72KR3nOnPu7fq48OUAISCVSXemeehFmNZhY1satPJNDzQ2w53e0OlQUx5oMPZ5eJywJCffIx9WPUpK4+tkC9jRWU7bPDaj7wsJuVtxKwpJvWqe32k7j62AI9X6JBUtS1Q5Swmnlz51HRwO3HdvWxppnQLSIFxQmrueH3RCvub11xAoQz8B44FopSPEfxqj6RLaiqBXn0wn95v9uONHwLrOnru5V0+WW2or1RrWhkC1ooONZTKXEiEfrZEiPOWsCa3rJCyWPj7MEV9YcjWVDPeg6SQqA9CXdmCOe5p9WLSzlh6o3SBo1kQQsxFJ8FaFEacUYHx2qrYqM8bRGbPKEWVDXrCXGqdrB1ARn+JoUa01HKTqEWVCXracTZHKodP1xGKOxnGlpQlaznzheULp9ohUoxadiK0IYWVBXriWzdiFMciElVye7bqXHLvK4FVcV6nvDKJXnvqWcNpvaP7FeiTtqwLtrIgvaRZNAhMuJMBxxbNDhOy++8dTXqLtUVaMGS794R0BtxpgfcvApJE2ttbd33ar14fpCWkeSeOwrxSIwM6YJjrMDkVxem5Gq9UduCFmgpSQRx5zZTTsoMJE2yXX29ktMUgSI5kj2MbFx7tvjTYDKxieZjEWb167UsaB9JBK4dN0O24Ji/I3eFa9f5GiWnKQJlU5vJzrn1MK5dHo9ItqKcLE0JLScJFO5d5qVh8C02rl0eyOplei9or9rNTyrUy15KPPfa1hDoksUX0LaNl9R9f+O2L2j/W2dIBhh0fne/vO13vMuD9/vPJ+1uV8vEZkWW1rPzogJd9ePptOSmC6j7Bx38eBp1drbRrItch3Lys1E68dmYczv8/jd06P2z/NoYiWIW/7/mzO6o+35np7wrVOIcoOwkq1ffVqAb+K7ff169/WIfSSKL2PNKFuWvll/Et84JMdYC4sFtET/Gz4PDLNI/7Rnm21eUd3AuZAnUtp0a/Gr/+cRZ8gqlUpZ0pG0958xupx1PfI8O7JlDD97b1VCc9Vh0zUz+jEvp6Fs9E6LNKzgXEjP6SUX7iTOFOhRJIs3AHII8sLfbsZoi6GbL6gsVws8rMqspVkCLEwJtlxR/omuUxg5ziDN3stXcyslIEosZBoR67K0iPbhSy10nQzl4RF53KZgLSbeg76Qkzldfnk0rlqefim599BJ6ZM13KY/sklRysqst6Ih7CRFp8adIfHEiS8+KDSzQPIr0r/KGSLr8y9o4Ah2XZD3TcO+oL2YpTh+ING/uXqabb/M06UT5Vk7cO6xY3GTo9FcVp3z00ScjXO/8xqlRIma96orp9HOuk17L2XtUINJD752ljz49T3lBVk3UCgqUg9J5NmWPSOuJjHpDDDeL4vtTO/7r1DeD+AV5vP7sy2VOhtzPjSL8WV5idsPyk5QXYERkCBSadO7xH1kJksiFW3FiwI1PfEFL7/1sijhrgW7Smkf/TQsWl/jxaOjPoxmQJ1d/SFI91NdkwWvOZ35EEduIEiiK6FEsHNx5H1u3514qU1wg1L5lJzkUCHffsLhplLYAkkB4i86UPr8aFO0lxaFd0GbhXA6sJ4rxYUCcsJoffpI8PsRn3MGfESZSiHPFL8SVuPAF3LXjMvrn339Ig3xD/RX3X376I6c7hlrvohixclyOS1qifIaoWChIKi+JEiisCYY+wniS481mxOkDkd6z5nPnvhG3Lg7/ncKA6NCxQtkMf2Mtq+yEFPwFxc9AxGl0t2StoUcmX6hIsqCieu/XXvOd0J/525tnErn1esDdI8FqBMTVjFhQLoPouhtMPVUDEePfXHmF2DLbCUkjkJzJdxUszS1olMGN3z3xHxLNsyz4MCu65KYLKQlI+B64N9lpgaBf3TVbqCWVOKNbbLcs6iGNCYu9UE46IXCWM8ia3/7LcbH1OBkh669FHKtZC7fcdakTL4tAlgXl+HNWOyyojBqoiD86iivbvSe9FBRT71lNvsNa+zE0arNhIsYXF7copbTQ/7esJck2W1BbkosXcbGD7ghu7EPuEOkMRLmJ67bVQkNZbcOaixsKFTGpCIHKujCFjSxelkBFfCvRlgxD57YjWrCo29YSGd5D2axRHCxqBlbmpg7SkiQRhCUCYUmMyqBrhQ5W458Zc4Raj1leUV9nUFjL58Qt4Zuvr0DDxOnzUUgI02zCJZmivOWDAggTYLem1gPWM2rsGNZ8yIMFlUKPgI1ThyO4cB1PUJzKwPBX45Q2stbIA60taJTWZZo96rQ4/F7zmbdIuiQKVJp5wdbTzXYoohTCb118IddC01nLjomiWQ02WUAIMpwgUVMtuZO5Tbg0gcLFH6TmwIlEvNYoEVj005lONpvGSX9l52UNLTQGnjdt+4J0R6qL5zpoiSQg6o8Oi9cgzg2/Eb+gDbFtWPiw/005+yuJ5uq5JIuytBhU1B8dRQQYRxM94YOpoUbEycRVxwi0CSCCKMnSrp3fF5bRY9oorL54+P1zlBckxqBlDCyXSAIQqCg3H2VDLwjqFQEDvRBnlMV5T+34kvLCPEkW1IJAx20aIkmIsqKYWIq6oA2uOYlIkbFjiDiKOPGFSWvEL2uuW0jSqNh0Gr14caPmMRElUGToUbNlf08lWMKoQkUydGDvnEhDxPii5Ml6Sow/QQlLPkokidtvJmHEnc2EJcSud9ipDgKsXiWJpAoihsWNs/QCS0HyYj3BbQLPUVy4wlRul2lB4T4Qh4oa58KE+wBbuqhiQgnK3dDWXTYCSzw8PN5w9+NGoO6Zpw1ucW6ul+niiY4V2qj+pZCzQKQV9ZcWJy3Ku+NpycTpDBbnoCgf5HaJ1hMUkCR1SHTxQPS2KnCvdzQh0iRAnEsFrf9RibskX1N+Biyodxlk6W5eJNhYoW/ZiUiZfbNEmWzXEdQ+Zbp3pgxtOpmBJdnNr7mPhANLCuGktagNgsQeTxgszps4gWRxTmjSESjXm46TRNJyJRDpPQ997ohIpDXFUmZYaJGbQajGxnUkFV+T/u52Ui0oJpvSLAjDDS9YPNS0UCFMxLewzHkqJVWDvKBH4ogd8DXpVKqRyctYGx9kE39jb1lBqeJe52jYqXtiSe6in8xsuBszxHyIe+r/4JgW/y6PrrwWsq0nGPcEOnEpxPMl+h9JXkAHgR6UsB8lWqDBjbkgxJOnRlMTJNZKNSpnIcmL+v/G791od5M4nwVgPZ97mmRTnl6ki/FgQqAjJXpb5oVkAcSZthU1NObjQ/LdO4tyYFqRbsTjCbMxZtM+kgzi0Lsl195aGRViT1AJaHFCoLJLTT5PPSZ3iUGrgrqnCrEnCCbtEwKd2UsDJLFg7wNxblLkQLUSOOYqWE+m7GnRYdIIT0UBNw8euk/uHGKrAdeuSmhl23Qg+Lx6yccAKQIySePq00cl1w7Yve8NPp8k0BlVb8oE7uZ5+eWO3INjrIhr9xkIPpkkUDTnLYWsKIZl0+jTG1xgOVUKpaA9jj9LwdemrOpUodwU5MnHTDyaBojzVUtGx216qfo1q/oFXDxpxKJBUmhbRkzcL1wib6/0vHHVXKLXd8vdc6kWnKT3hlpQz80rURP1QbKEA9qtVqykJTiGf35ePXFaFvVXixPU3LiBTe0WUgwE8kakzdHtHUPFkiKH0Urt0NKq9w9UGB6pBXbEQ7/euPt4qCxOpjS9SL213qi79Q3HA8+QghhLGh8/5lRUnNBaXY9dV6BcE91OCrQ+a+GLVPKmAlqAlZkqi9NjoN4bdQWKZMmukfarAg74u/tNnbQRqHPuVjAhClIvOZp4v9E/Hhmk+bZFR0lxtrGt37qdDB6oemAqTIfRxVqlpSANBQpUGGSOgkmeXBBvooykuEt3gPWc1kOrG/1M6P6gKpacatEjfx23dNAZOrJfD3GC8Uq4tkIFitk8lfrzhqmgFYylGipNJYURFnv6RNphma3oajIoB0ptGEvUIEufQhTrCSIJFEq3Fa2LtiL+qgNUMXRcwxXVeoLIWw1PJ9o8QrSScnxtT9WBMFFW+/V9apeOQihHtZ4gskBRFz07SM8ULHqcDJnir3bNw4pXdCijWk8Qa7N2dJc8K1okQ6r41hLizNE8bInFuTnOP4glUM+KrmYr+jYZhIPWLVqTORPlBJUEyXbsy12g7HSOXT0Humsp58CKQTQffCxum/Lqz/ZvWN6icVwZipMYFeOXKxNdNMhLmJZSjl19dUfGFynu0bXCDc/9Wy0gQtxQDoL48Fm44bN1Kws1SSlOYhQkkUDz7uqxXge97CD+5JRZHxUfjNPFSYyCJL4UIlx93mqj/lBvtTgNybHdrL2fEtLUtTrh6knyRRhEgeQEhW9jIYVS8jSSmKYEClfP5hvb5Gm7F7Y/mqb63KSGONrwLtKRmKavduy1QbWYeKoGyQqs5kNm6Fk4dhNxZxAhl+Oe0UvbdYtHIUqdRtN0AkkRNEECEHa9eP6F1ukwlmcSoXTBngpxu0WNECZQ0GHTclI4aTKJUOqUxl0NCEOoQANJU4kUwiRCmVDCuRcRdwYRKlCAX3DU/RYpkdmbRCgTyjjnosUJhAsUXNhLx0ZdSyoViFLHaXPdwLnGOacUSEWgAL9wRdJSkWAiZFx6uuAcpyVOELrsuFm4Z7+Ke/YvUgZgkOO1N1zLaYSZPhBnM23MKKQuUJClSA3ZkIU4QSYCBV8P0vwOd/rJrGnSm3KaMWc1qcWg1QQSpxIZdKWUpThBZhbUh9190ZsjLZJBJ1Kpc4aRmQX1wR/oFfOV2mbcUB/n4q42LchanCBzgQL8odOLtKCi6RRUK4EhIFx5uNmxuaRIEagPhgr4AKwnjedJcwz2h12PISCSSOYxaC1MXKocUuLNWki1oD44EIhxzP5P8nFcuqR4sxZKWNAgXlEf2+sUyZAlJa/4PkAKoYQFDYLuBNxLReH98fNGwGoOkGIoZ0GDsDXt81qkRTKkgZJWM4jSAvVhoW4uuFvtmDapGDBY/gw2g5NVPoqKFgIFyPT5DkJdSYbEwJ1jrbrqwvTRRqA+RqjJQDdo3HXnJdII7QTqY4QaDU+YW1SOMxuhrUB9jFBr4lwlcIyoP8vJozTQXqA+nlD7WryGqk3yE5XcCDTI+UFaViFa1iJWtYzNEnR2443IpUB9fKvaxkLV4XKOcUBsOWbTvpnsxvNiLWuRa4EGCYQA2Bm6j/SrqZYti/aOV+gAu/C9eRZlkJYRaDXoUrFVnd/OgsU9qSdYx3XDSnr7HQ1QC9KyAq0Gi/raWKh8QOazlZ2XsWgdMXKCc9xGPMk33bNvURiBNsAepK5zECwLteKKt4vdbA/ubVe8wVstSv4DC48t7n1X6DR/VsnCFddYiBfgcYu46yT8H7mtgc4q5BdcAAAAAElFTkSuQmCC" alt="">
+        <div class="purple">
+             > 6개월 뒤, 게임 프로그래머로 입사 지원하기 <
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,434 @@
+.topbanner{
+    width: 100%;
+    height: 45px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    position: relative;
+    padding-top: 5px;
+}
+
+.search{
+    position : absolute;
+    right : 120px;
+}
+.magnifier{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 160px;
+    top: 5px;
+}
+.share{
+    position : absolute;
+    right : 40px; 
+}
+.shareimg{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 80px;
+    top: 8px;
+    
+}
+
+.topbannerimg{
+    width: 100%;
+}
+.topbannerimg2{
+    width: 100%;
+    height: 320px;
+}
+
+.firsttitle{
+    width: 710px;
+    height: 54px;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.mainbox{
+    width: 100%;
+    height: 10800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.innermainbox{
+    width: 900px;
+    height: 10400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.reviewimg{
+    width: 710px;
+    height: 690px;
+    border-bottom: 1px solid gray;
+}
+
+.manypeopleimg{
+    margin-top: 50px;
+    width: 710px;
+    height: 510px;
+}
+
+.emptyspace{
+    width: 710px;
+    height: 35px;
+}
+
+h3{
+    width: 710px;
+    height: 34px;
+    font-size: 22px;
+}
+
+.borderleftbox{
+    width: 710px;
+    height: 120px;
+    border-left: 2px solid black;
+}
+.text{
+    width: 670px;
+    height: 120px;
+    padding-left: 20px;
+}
+
+.yellow{
+    font-weight: bolder;
+    background-color: rgb(244, 244, 167);
+}
+
+.playbuttontext{
+    width: 680px;
+    height: 30px;
+    text-decoration: underline;
+    color: gray;
+}
+.playbuttonimg{
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.emptyspace1{
+    padding-top: 10px;
+}
+
+.bold{
+    font-weight: bolder;
+}
+.graybox{
+    width: 710px;
+    height: 130px;
+    border-radius: 2px;
+    background-color: #f1f1ef;
+    
+}
+
+.textingray{
+    width: 650px;
+    height: 100px;
+    margin-top: 18px;
+}
+
+.imgingray{
+    width: 25px;
+    height: 100px;
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.imgingray1{
+    width: 22px;
+    height: 22px;
+}
+.textisgray{
+    color: gray;
+}
+
+.graybox1{
+    width: 710px;
+    height: 100px;
+    border-radius: 2px;
+    background-color: #f1f1ef;
+}
+
+.redline{
+    color: red;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+.apply{
+    width: 240px;
+    height: 93px;
+}
+
+
+
+.firsttitle2{
+    width: 710px;
+    height: 54px;
+    align-items: center;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.bookicon{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: 23px;
+}
+
+.phil{
+    width: 710px;
+    height: 100px;
+    border-bottom: 1px solid gray;
+}
+
+.borderleftbox1{
+    width: 710px;
+    height: 150px;
+    border-left: 2px solid black;
+}
+
+.pointingpic{
+    width: 710px;
+    height: 471px;
+    margin-top: 15px;
+}
+
+
+
+.offline{
+    margin-top: 100px;
+    transform: translateX(-170px);
+}
+
+.fast{
+    transform: translateX(-120px);
+}
+
+.borderleftbox2{
+    width: 710px;
+    height: 150px;
+    border-left: 2px solid black;
+}
+
+.pointingpic1{
+    margin-top: 50px;
+    width: 710px;
+    height: 471px;
+}
+
+.borderleftbox3{
+    width: 710px;
+    height: 105px;
+    border-left: 2px solid black;
+}
+
+.maxwidth{
+    max-width : 100%;
+    height : 320px;
+}
+
+.bannerimg2{
+    width: 200%;
+    height: 320px;
+}
+
+.onestep{
+    width: 710px;
+    height: 800px;
+
+}
+
+.longpic{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.topbannerimg2 , .longpic{
+    object-fit: cover;
+    width: 180%;
+}
+
+.grayline{
+    color: gray;
+    text-decoration: underline;
+    transform: translateX(-250px);
+}
+
+.beforeyoutube{
+    height: 100px;
+    width: 710px;
+    border-bottom: 1px solid gray;
+}
+
+.youtubetext{
+    width: 320px;
+    height: 70px;
+    padding-left: 5px;
+    color: rgba(55, 53, 47, 0.6);
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.youtubespace{
+    width: 46px;
+    height: 282px;
+}
+
+.youtube{
+    
+    width: 710px;
+    height: 360px;
+}
+
+.realyoutube , .youtubespace {
+    float: left;
+    margin-top: 20px;
+}
+.mediumbox{
+    width: 710px;
+    height: 100px;
+    border-bottom: 1px solid gray;
+}
+
+.threepic{
+    display: flex;
+}
+
+.picagain , .pictext {
+    width: 330px;
+    height: 250px;
+}
+
+.boldline{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.picagain1{
+    width: 320px;
+    height: 240px;
+    margin-top: 15px;
+}
+
+.pictext{
+    margin-top: 50px;
+}
+
+.question{
+    width: 710px;
+    height: 100px;
+}
+
+.h3q{
+    transform: translateY(50px);
+    margin-bottom: 10px;
+}
+
+.questiontext{
+   width: 710px;
+   height: 30px;
+   
+}
+.questiontext2{
+    transform: translateX(-140px);
+}
+
+.last{
+    width: 680px;
+    height: 30px;
+}
+.lastbox{
+    width: 710px;
+    height: 106px;
+    border: 1px solid rgb(207, 201, 201);
+    border-radius: 5px;
+    display: flex;
+}
+.lastpic{
+    width: 250px;
+    height: 106;
+    object-fit: cover;;
+    
+}
+.lasttext{
+    width: 457px;
+    height: 106px;
+}
+
+#last{
+    font-size: 10px;
+}
+
+#hehe{
+    font-size: 12px;
+}
+
+.kakao{
+    width: 56px;
+    height: 56px;
+    transform: translateX(330px);
+    position: sticky;
+    right: 2%;
+    bottom: 9%;
+}
+
+.purple{
+    background-color: #5454e2;
+    border-radius: 5px;
+    position: sticky;
+    bottom: 2%;
+    right: 2%;
+    height: 40px;
+    width: 650px;
+    text-align: center;
+    padding-top: 14px;
+    color: white;
+}
+
+.questions{
+    width: 680px;
+    height: 30px;
+}
+
+.playbuttonimgclass{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.questioncolor{
+    background: rgb(251, 236, 221);
+
+}
+
+.kakaotalk{
+    width: 19px;
+    height: 19px;
+    transform: translateY(5px);
+}
+
+.phonecall{
+    width: 19px;
+    height: 19px;
+    transform: translateY(2px);
+}
+
+.alignleft{
+    width: 710px;
+    height: 30px;
+}
