@@ -2,6 +2,16 @@ body {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gray:hover {
+    cursor: pointer;
+    background-color: #eee;
+    border-radius: 2px;
+}
 
 .topbar {
     width: 100vw;
@@ -16,9 +26,10 @@ body {
 }
 
 .top-btns {
-    width: 120px;
+    width: 140px;
     display: inline-flex;
     /* vertical-align: middle; */
+    /* margin: 0 16px; */
 }
 
 .top-btn {
@@ -28,6 +39,7 @@ body {
     text-align: center;
     /* line-height: 1; */
     font-size: 14px;
+    margin-left: 16px;
 
 }
 
@@ -48,22 +60,31 @@ body {
 
 .content {
     text-align: center;
-    height: 1500vh;
+    /* height: 1500vh; */
 }
 
 .inner1 {
-    margin-left: 350px;
-    margin-right: 350px;
-    padding-left: 0 calc(96px + env(safe-area-inset-left));
-    padding-right: 0 calc(96px + env(safe-area-inset-right));
+    /* margin-left: 350px;
+    margin-right: 350px; */
+    margin-top: -10px;
+    /* padding-left: 0 calc(96px + env(safe-area-inset-left));
+    padding-right: 0 calc(96px + env(safe-area-inset-right)); */
     /* background-color: bisque; */
 
     display: flex;
     align-items: center;
     
-    width: 900px;
+    /* width: 900px; */
+    max-width : 708px;
 
     display: inline-block;
+}
+
+.inner1 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color : rgb(55, 53, 47);
+
 }
 
 .inner1 img {
@@ -120,6 +141,34 @@ body {
     display: flex;
 }
 
+.toggle.gray {
+    height: 17px;
+}
+
+.toggle:active svg{
+    animation: 0.6s toggleDown;
+}
+
+@keyframes toggleDown {
+
+    from {
+        transform: rotate(0);
+    }
+    
+    to {
+        transform: rotate(60deg);
+    }
+}
+
+.invisible {
+    display: none;
+}
+
+.toggle:active ~ div .invisible {
+    display: block;
+}
+
+
 .triangle-toggle {
     width: 11px;
     transform: rotate(90deg);
@@ -127,6 +176,7 @@ body {
 }
 
 .toggle-text {
+    width: fit-content;
     font-weight: 600;
     color: rgb(155,154,151);
     word-wrap: break-word;
@@ -232,21 +282,111 @@ body {
 } */
 
 .purple-btn {
-    /* width: 100%; */
+    width: 88%;
+    max-width : 708px;
     height: 48px;
+    line-height: 48px;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 84, 226);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
 
+    transition: all 0.3s ease 0s;
+    box-shadow: rgb(55 53 47 / 40%) 0px 0px 4px 2px;
+    animation: 0.8s ease 0s 1 normal none running fadeIn;
+    z-index: 10000;
+
+
+    text-align: center;
+    /* align-items: center; */
     position: fixed;
-    bottom: 0;
+    bottom: 16px;
+
+
+    /* justify-content:center; */
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+        transform: translate(0px, 16px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
 }
 
 
 
 
+.bookmark {
+    display: inline;
+    cursor: pointer;
 
 
 
+}
 
+.bookmark-ct {
+    border: 1px solid rgba(55,53,47,.16);
+    height: 108px;
+    margin-top: 16px;
+}
 
+.bookmark a {
+    color: #37352F;
+    text-decoration: none;
+}
 
+.bm-text {
+    width: 450px;
+    height: 106px;
+    margin-right: 0px;
+    float: left;
+
+    
+}
+
+.bm-img {
+    width: 246px;
+    height: 106px;
+    margin: 0;
+    float: left;
+}
+
+.bookmark img {
+    display: block;
+    object-fit: cover;
+    border-radius: 1px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.bm-text-title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.bm-text-body {
+    font-size: 12px;
+    line-height: 16px;
+    opacity: .6;
+    margin-top: 4px;
+    margin-left: 12px;
+}
+
+.bm-text-link {
+    font-size: 12px;
+    line-height: 16px;
+    float: left;
+    line-height: 1em;
+    margin-top: 14px;
+    margin-left: 6px;
+}
