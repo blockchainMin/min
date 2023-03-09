@@ -28,16 +28,12 @@ a {
 .top-btns {
     width: 140px;
     display: inline-flex;
-    /* vertical-align: middle; */
-    /* margin: 0 16px; */
 }
 
 .top-btn {
     width: auto;
     display: inline-flex;
-    /* display: flex; */
     text-align: center;
-    /* line-height: 1; */
     font-size: 14px;
     margin-left: 16px;
 
@@ -60,23 +56,12 @@ a {
 
 .content {
     text-align: center;
-    /* height: 1500vh; */
 }
 
 .inner1 {
-    /* margin-left: 350px;
-    margin-right: 350px; */
     margin-top: -10px;
-    /* padding-left: 0 calc(96px + env(safe-area-inset-left));
-    padding-right: 0 calc(96px + env(safe-area-inset-right)); */
-    /* background-color: bisque; */
-
-    display: flex;
     align-items: center;
-    
-    /* width: 900px; */
     max-width : 708px;
-
     display: inline-block;
 }
 
@@ -84,13 +69,11 @@ a {
     font-weight: 700;
     font-size: 40px;
     color : rgb(55, 53, 47);
-
 }
 
 .inner1 img {
     width: 100%;
 }
-
 
 .divider {
     width: 100%;
@@ -143,13 +126,14 @@ a {
 
 .toggle.gray {
     height: 17px;
+    width: fit-content;
 }
 
-.toggle:active svg{
+/* .toggle:active svg{
     animation: 0.6s toggleDown;
-}
+} */
 
-@keyframes toggleDown {
+/* @keyframes toggleDown {
 
     from {
         transform: rotate(0);
@@ -158,15 +142,21 @@ a {
     to {
         transform: rotate(60deg);
     }
-}
+} */
 
-.invisible {
-    display: none;
-}
 
-.toggle:active ~ div .invisible {
-    display: block;
-}
+#check-btn-1 { display: none; }
+#check-btn-1:checked ~ ul #invisible1 { display: block; } 
+#invisible1 { display: none; }
+
+
+#check-btn-2 { display: none; }
+#check-btn-2:checked ~ ul #invisible2 { display: block; } 
+#invisible2 { display: none; }
+
+
+
+
 
 
 .triangle-toggle {
@@ -182,6 +172,7 @@ a {
     word-wrap: break-word;
     border-bottom: 0.05em solid;
     font-size: 16px;
+    margin-top: 20px;
 }
 
 .block-div {
@@ -204,7 +195,6 @@ a {
 .block-icon img {
     width: 22px;
     height: 22px;
-    /* line-height: 1em; */
     background-repeat: no-repeat;
     background: url(https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png);
     background-size: 6000% 6000%;
@@ -222,8 +212,6 @@ a {
     margin: 0;
     background-repeat: no-repeat;
     background: url(https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png);
-    /* background-position-x: 93.22033898305084%;
-    background-position-y: 47.45762711864407%; */
     background-size: 6000% 6000%;
 }
 
@@ -255,7 +243,6 @@ a {
 
 .img-text-text {
     width: 350px;
-    /* height: 220px; */
     display: table;
 
 }
@@ -277,10 +264,6 @@ a {
     vertical-align: middle;
 }
 
-/* .toggle-div .margin-m {
-    margin-bottom: -6px;
-} */
-
 .purple-btn {
     width: 88%;
     max-width : 708px;
@@ -298,14 +281,9 @@ a {
     animation: 0.8s ease 0s 1 normal none running fadeIn;
     z-index: 10000;
 
-
     text-align: center;
-    /* align-items: center; */
     position: fixed;
     bottom: 16px;
-
-
-    /* justify-content:center; */
 }
 
 @keyframes fadeIn {
@@ -321,13 +299,9 @@ a {
 }
 
 
-
-
 .bookmark {
     display: inline;
     cursor: pointer;
-
-
 
 }
 
@@ -347,8 +321,6 @@ a {
     height: 106px;
     margin-right: 0px;
     float: left;
-
-    
 }
 
 .bm-img {
@@ -364,7 +336,6 @@ a {
     border-radius: 1px;
     width: 100%;
     height: 100%;
-
 }
 
 .bm-text-title {
@@ -390,3 +361,4 @@ a {
     margin-top: 14px;
     margin-left: 6px;
 }
+
